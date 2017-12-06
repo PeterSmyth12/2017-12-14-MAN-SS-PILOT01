@@ -47,17 +47,18 @@ with openrefine.exe try refine.bat instead)
 
 <p>
 
-<li><b>R</b>
-<br>In the workshop, we will use RStudio. RStudio is a nice interface to the
-programming language R. To use RStudio, you need to install both R and RStudio.
+<li><b>Python & Jupyter notebooks</b>
+<br>In the workshop, we will be using Jupyter notebooks to access the Python environment. You can install both Python and Jupyter notebooks from a single install.</br>
 <ul>
-<li>      Download R from
-      <a href="http://cran.r-project.org/bin/windows/base/release.htm">here</a>
-<li>Run the .exe file that was just downloaded
-<li>Go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
-<li>Under <i>Installers</i> select <b>RStudio 1.1.383 - Windows Vista/7/8/10 </b> , or the latest version
-<li>Double click the file to install it
-<li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+<li>      Follow the Anaconda link <a href="https://www.anaconda.com/download/">here</a>to the Anaconda website. There are versions of Anaconda available for Windows, macOS and Linux. The web site will detect your operating system and provide a link to the appropriate download.
+<li> There will be two options, one for Python 2.x and another for Python 3.x. We will take the Python 3.x option.   
+<li> For Windows and Linux there is the option of either a 64 bit (default) download or a 32bit download. Unless you know that you do not have an old 32bit pc you should choose the 64bit installer.   
+<li>Run the downloaded installer program. Accept the default settings until you are given the option to add Anaconda to your environmental Path variable. Despite the recommendation not to and the subsequent warning, you should select this option. This will make it easier later on to start Jupyter notebooks from any location.
+<li>The installation can take a few minutes. When finished you should be able to open a cmd prompt (Type cmd from Windows start) and into the cmd window type 'python'. 
+<li> You should get a message sayingwhat version of Python you installed and a '>>>' prompt.
+<li> You can close the python session by typing 'quit()'.
+<li> You can check Jupyter by typing 'Jupyter notebook'. This will produce a variety of messages, but more importantly, it should load the Jupyter front page in your default browser.
+<li> If your browser doesn't open, open it manually and type in 'localhost:8888' as the URL
 </ul>
 
 <p>
@@ -69,6 +70,7 @@ For this workshop we're going to use the free application DB Browser for SQLite
 <li>The software can be downloaded from the <a href=http://sqlitebrowser.org/>DB Browser site</a>
 <li>Select the latest Windows version and download the single installer file.
 <li>Execute the downloaded file by double clicking it.
+<li>You will require admin permissions to perform the install.  
 <li>Accept all of the default options in the installation wizard.
 <li>The installation does not create a desktop icon. You can find/run DB Browser from the Windows search/start button.
 </ul>
